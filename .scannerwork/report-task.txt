@@ -1,0 +1,6 @@
+projectKey=pms
+serverUrl=http://sonarqube:9000
+serverVersion=10.3.0.82913
+dashboardUrl=http://sonarqube:9000/dashboard?id=pms
+ceTaskId=AY2yGeedJ_59DuM5LpUs
+ceTaskUrl=http://sonarqube:9000/api/ce/task?id=AY2yGeedJ_59DuM5LpUs
