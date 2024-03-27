@@ -3,7 +3,7 @@ import pymongo
 def database_connection():
     # Replace the connection string with your MongoDB connection string
     # You can get this from your MongoDB Atlas dashboard or set up your local connection
-    mongo_uri = "mongodb+srv://dharmikpatel08:RoeDKw9EC5T4p4dQ@pms.kzqukrf.mongodb.net/?retryWrites=true&w=majority"
+    mongo_uri = ""
     
     # Add tlsAllowInvalidCertificates option to ignore SSL certificate validation
     client = pymongo.MongoClient(mongo_uri, tlsAllowInvalidCertificates=True)
@@ -25,6 +25,3 @@ def database_connection():
         print(document['username'], document['password'])
 
 database_connection()
-
-
-#mongodb+srv://dharmikpatel08:RoeDKw9EC5T4p4dQ@pms.kzqukrf.mongodb.net/
